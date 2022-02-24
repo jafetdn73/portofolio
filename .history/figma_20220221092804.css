@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+}
+.container {
+    width: 1150px;
+    background-color: aqua;
+}

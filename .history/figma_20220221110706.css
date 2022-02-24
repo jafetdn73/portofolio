@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 1150px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.menu-bar ul li {
+    display: inline;
+    margin-right: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Start Hero */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    padding: 0 100px;
+}
+
+.hero-text {
+    width: 450px;
+}
+
+.hero-text h1 {
+    font-size: 44px;
+    font-weight: 400px;
+}
+
+.hero-text p {
+    font-size: 16px;
+}
+
+.hero-text button {
+    background-color: blanchedalmond;
+}
