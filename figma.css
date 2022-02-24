@@ -107,8 +107,8 @@
 }
 
 .social-media img {
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:15px;
+    margin-right:15px;
 }
 
 .copyright {
@@ -122,5 +122,65 @@
     color: white; background-color: rgb(29, 4, 75);padding-left: 5px;padding-right: 5px;padding-bottom: 2px;; border-radius: 25px;margin-right: 30px;
 }
 
+@media only screen and (max-width: 600px)
+{
+    .container
+    {
+        width:100%;
+    }
+    .menu-bar 
+    {
+        justify-content: center;
+    }
+    .hero {
+        display: flex;
+        flex-direction:column-reverse;
+    }
 
+    .hero-image 
+    {
+        display: flex;
+        justify-content: center;
+    }
 
+    .hero-text 
+    {
+        text-align: center;
+        width: auto;
+    }
+
+    .post {
+        padding:15px 15px;
+    }
+
+    .post-content {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .featured {
+        margin : 15px 15px;
+        gap:15px;
+    }
+
+    .featured-detail 
+    {
+display: flex;
+flex-direction: column;
+    }
+
+    .featured-image 
+    {
+        text-align: center;
+    }
+
+    .social-media {
+        margin : 15px 15px;
+        width:auto;
+    }
+
+    .copyright{
+        margin : 15px 15px;
+        width:auto;
+    }
+}
